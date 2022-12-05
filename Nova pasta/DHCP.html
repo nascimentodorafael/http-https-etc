@@ -1,0 +1,51 @@
+<html> 
+<head> 
+<title> frames </title> 
+</head>
+<body bgcolor="white"> 
+<center><h1></h1></center> 
+<h3> <p><a href="file:///C:/Nova%20pasta/Frames_3.html" ></a></p>
+</h3>
+<br><font size = "5" color = "black"><p align = "center">O que é DHCP?</p><br></font>
+Quando falamos em redes, existem alguns recursos que são utilizados e facilitam muito a nossa vida, 
+mas nem os percebemos. Um deles é o protocolo DHCP. Do inglês Dynamic Host Configuration Protocol 
+(que ficaria, em português, algo como Protocolo de Configuração Dinâmica de Endereços de Rede), 
+é um protocolo utilizado em redes de computadores que permite às máquinas obterem um endereço IP automaticamente.
+Este protocolo começou a ganhar terreno aproximadamente em Outubro de 1993, sendo o sucessor do BOOTP que, 
+embora seja mais simples, tornou-se muito limitado para as exigências atuais.
+<br><font size = "5" color = "black"><p align = "center">Por que ele é importante?</p><br></font>
+Digamos que você seja o administrador de uma rede. Se fosse uma rede doméstica com 3 computadores, 
+não seria trabalhoso atribuir um número de IP e todos os parâmetros necessários para cada um deles. 
+Agora, se fossem 100, 200 ou mais, certamente a história seria outra.
+O protocolo DHCP faz exatamente isto, por meio dele um servidor é capaz de distribuir automaticamente endereços 
+de IP diferentes a todos os computadores à medida que eles fazem a solicitação de conexão com a rede. 
+Essa distribuição dos IPs é feita em um intervalo pré-definido configurado no servidor. 
+Sempre que uma das máquinas for desconectada o IP ficará livre para o uso em outra.
+O DHCP é o responsável pelo endereço de IP das máquinas
+Você já deve ter ouvido que recebe um endereço de IP diferente para cada conexão de internet, certo? 
+Este é um fato cujo responsável é o DHCP combinado com protocolos diferentes.
+<br><font size = "5" color = "black"><p align = "center">Como ele faz isso?</p><br></font>
+Resumidamente, utilizando um modelo cliente-servidor, o DHCP faz o seguinte:
+<ul type = "circle">
+<li>● Quando um cliente conecta-se a uma rede ele envia um pacote com um pedido de configurações DHCP.</li>
+<li>●  O servidor DHCP gerencia uma faixa fixa de IPs disponíveis juntamente com as informações 
+e parâmetros necessários (gateway padrão, nome de domínio, DNS, etc).</li>
+<li>●  Quando este servidor recebe um pedido, ele entrega um destes endereços e configurações para o cliente.</li>
+</ul>
+<br><font size = "5" color = "black"><p align = "center">Modos de Funcionamento</p><br></font>
+Ele pode operar de três formas: automática, dinâmica e manual.
+Automática, no qual uma quantidade de endereços de IP (dentro de uma faixa) é definida para ser utilizada na rede. 
+Neste caso, sempre que um dos computadores de uma rede solicitar a conexão com ela, 
+um destes IPs será designado para a máquina em questão.
+Na dinâmica o procedimento é bem parecido com o efetuado pela automática, 
+porém a conexão do computador com determinado IP é limitada por um período de tempo pré-configurado 
+que pode variar conforme desejado pelo administrador da rede.
+No modo manual o DHCP aloca um endereço de IP conforme o valor de MAC (Medium Access Control) 
+de cada placa de rede de forma que cada computador utilizará apenas este endereço de IP. 
+Utiliza-se este recurso quando é necessário que uma máquina possua um endereço de IP fixo.
+Como o DHCP possui suporte para diversas plataformas, ele traz uma solução eficiente 
+e fornece uma grande ajuda para os administradores de rede. Agora você já sabe o que é 
+e o que faz este protocolo de rede, esperamos que todas as dúvidas referentes 
+ao assunto tenham sido respondidas de forma satisfatória e até a próxima!
+</body>
+</html>
